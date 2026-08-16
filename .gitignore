@@ -1,0 +1,17 @@
+# Arquivos de chave privada SSH
+*.pem
+*.key
+id_rsa*
+
+# Arquivos temporários do Ansible
+*.retry
+.ansible/
+*.log
+
+# Ambientes virtuais Python (caso use venv para instalar o ansible)
+.venv/
+venv/
+__pycache__/
+
+# Vault pass (caso crie arquivos de senha localmente)
+.vault_pass
